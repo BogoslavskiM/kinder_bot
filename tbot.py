@@ -1,4 +1,3 @@
-from turtle import st
 from settings import *
 from data import *
 
