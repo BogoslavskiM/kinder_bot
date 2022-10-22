@@ -8,7 +8,7 @@ logger.addHandler(handler)
 logger.setLevel(logging.DEBUG)
 logger.addFilter(lambda x: True)
 
-token = '5626060457:AAF0FWPCXDqB6Q3H9I3KnM2U5J4lvH3xGDM'
+token = '5440634030:AAEi5e9Egp5Uy2i6UR0UoXrcVXF9FyiyaD8'
 
 bot = telebot.TeleBot(token)
 sovet = '-1001199599857'

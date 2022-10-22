@@ -25,7 +25,7 @@ def resend(message):
         
 
     bot.send_message(message.chat.id, messages['reply_data'])
-    bot.send_sticker(message.chat.id, sticker='CAACAgIAAxkBAAMfY1QEX7wTP6OY-nOvjsA_d4cp1jsAAmUAA8A2TxMTo2UohLerHioE')
+    # bot.send_sticker(message.chat.id, sticker='CAACAgIAAxkBAAMfY1QEX7wTP6OY-nOvjsA_d4cp1jsAAmUAA8A2TxMTo2UohLerHioE')
 
 @bot.message_handler(content_types=['sticker'])
 def sticker(message):
